@@ -38,5 +38,8 @@ class Song
   def self.alphabetical
       self.all.sort_by{ |songs| songs.name.downcase }
   end 
+  
+  def self.new_from_filename(file_name)
+      
 
 end

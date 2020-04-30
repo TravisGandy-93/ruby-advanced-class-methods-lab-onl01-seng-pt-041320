@@ -45,5 +45,7 @@ class Song
       new_song.artist_name = file[0]
       new_song
   end 
+  
+  def 
 
 end

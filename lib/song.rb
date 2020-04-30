@@ -39,7 +39,8 @@ class Song
       self.all.sort_by{ |songs| songs.name.downcase }
   end 
   
-  def self.new_from_filename(file_name)
+  def self.new_from_filename(filename)
+      file = filename.split("-")
       
 
 end
